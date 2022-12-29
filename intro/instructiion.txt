@@ -1,0 +1,13 @@
+1. Set up Kafka broker
+    - docker-compose.yml
+    https://developer.confluent.io/quickstart/kafka-docker/
+2. Start the Kafak broker
+    - docker-composse up -d 
+
+3. Start the producer in one terminal 
+    - python3 produce.py 
+
+4. Start the consumber in another terminal 
+    - python3 consume.py 
+
+5. You can see the result as random number
